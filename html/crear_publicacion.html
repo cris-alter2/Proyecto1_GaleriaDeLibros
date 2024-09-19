@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('../css/base.css');
+        @import url('../css/crear_publicacion.css');
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li class="navitem"><a href="../index.html">INICIO</a></li>
+        </ul>
+    </nav>
+    <div id="contentContainer">
+        <div id="formNew">
+            <form>
+                <h1>Formulario Creación Publicación</h1>
+                <fieldset class="inputForm">
+                    <legend>Datos Noticia</legend>
+                    <label for="title"><b>Título de la Publicación:</b></label></br></br>
+                    <input type="text" id="title" name="title"></br></br>
+                    <label for="title"><b>Contenido:</b></label></br>
+                    <textarea id="content" name="content"></textarea>
+                    <div class="btnGroup">
+                        <button id="btnCancel" class="btn">Cancelar</button>
+                        <input type="submit" id="btnSubmint"  class="btn" value="Guardar"/>
+                    </div>
+                    
+                </fieldset>
+                
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

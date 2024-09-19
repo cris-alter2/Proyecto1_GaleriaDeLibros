@@ -1,0 +1,27 @@
+h1{
+    font-size: 5em;
+}
+
+#contentContainer{
+    height: auto;
+}
+
+#newDetail{
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#newDetail img{
+    width: 35%;
+}
+
+#newContent{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 25px;
+}
+

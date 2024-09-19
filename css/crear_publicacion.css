@@ -1,0 +1,44 @@
+.btnGroup{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+
+.btn{
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.inputForm{
+    padding: 20px;
+    font-size: 20px;
+}
+
+#btnCancel{
+    background-color: rgb(178, 100, 100);
+}
+
+
+#btnSubmint{
+    background-color: rgb(100, 178, 116);
+}
+
+#title{
+    height: 30px;
+    width: 100%;
+}
+
+
+#formNew{
+    margin: auto;
+    border: 1px solid black;
+    padding: 60px;
+    background-color: white;
+}
+
+#content{
+    width: 100%;
+    height: 20vh;
+}
