@@ -1,20 +1,25 @@
-
-.new{
-    width: 80%;
+#libros{
+    width: 20%;
     padding: 20px;
-    border: 1px solid black;
-    text-align: left;
-    margin-top: 20px;
-    background-color: white;
-}
-
-.new a{
-    color: blue;
-}
-
-#news{
-    padding: 30px;
-    width: 100%;
+    border: 1px transparent;
     text-align: center;
+    background-color: transparent;
+}
+
+ #im_lib{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+ }
+
+ .portada{
+ padding: 10%;
+ margin: 50px;
+ }
+
+.tit_lib{
+    font: 100%;
+    font-family: fantasy;
 }
 

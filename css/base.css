@@ -9,7 +9,6 @@ body{
     flex-direction: column;
 }
 
-
 a {
     color: inherit;
     text-decoration: none;
@@ -32,29 +31,9 @@ a {
 
 #contentContainer {
     height: 100%;
+    width: 100%;
     background-color: rgb(228, 228, 228);
     display: flex;
-}
-
-#contentContainer div{
-    display: inline-block;
-}
-
-#categories{
-    padding: 50px;
-    height: auto;
-    border-right: 1px solid black;
-    background-color: rgb(24, 102, 154);
-    color: white;
-    font-size: large;
-}
-
-#categories ul{
-    list-style-type: none;
-}
-
-#categories li{
-    margin-top: 20px;
 }
 
 /* cod */
@@ -84,6 +63,10 @@ body {
     font-weight: bold;
     color: brown;
     margin-right: 20px;
+}
+
+#tit_pag{
+ border-right: 20px solid transparent;
 }
 
 .navbar .logo img {
