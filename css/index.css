@@ -11,15 +11,23 @@
     height: auto;
     display: block;
     margin: 0;
+    border-style: groove;
+    border-radius: 5px;
  }
 
  .portada{
- padding: 10%;
- margin: 50px;
+   padding: 10%;
+   margin: 50px;
  }
 
 .tit_lib{
-    font: 100%;
-    font-family: fantasy;
+    font-family: "BhuTuka Expanded One", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(178, 225, 255);
+}
+
+.autor{
+    color:blueviolet
 }
 

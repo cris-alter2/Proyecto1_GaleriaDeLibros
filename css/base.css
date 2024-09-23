@@ -10,50 +10,28 @@ body{
 }
 
 a {
-    color: inherit;
+    color: rgb(24, 12, 12);
     text-decoration: none;
-}
-
-.navitem {
-    display: inline-block;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    padding: 5px;
-    font-weight: bold;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.navitem:hover{
-    background-color: rgb(37, 123, 184);
 }
 
 #contentContainer {
     height: 100%;
     width: 100%;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(62, 12, 154);
     display: flex;
-}
-
-/* cod */
-#navbar{
-    width: auto;
-    height: 50px;
-    padding-left: 20px;
-    background-color: rgb(30, 97, 145);
-    border-bottom: 1px solid black;
 }
 
 body {
    font-family: Arial, sans-serif;
 }
-
-.navbar {
+ 
+/*  */
+.navbar, .nav_secundario{
     display: flex;
     align-items: center;
-    background-color: #b47d1f;
+    background-color: rgb(177, 118, 40);
     padding: 10px 20px;
+    width: auto;
 }
 
 .navbar .logo {
@@ -61,28 +39,29 @@ body {
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    color: brown;
+    color: rgb(161, 17, 17);
     margin-right: 20px;
 }
 
 #tit_pag{
  border-right: 20px solid transparent;
+ 
 }
 
 .navbar .logo img {
     width: 7%;
     margin-right: 10px;
-  }
+}
 
 .navbar input[type="text"] {
     flex-grow: 1;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px transparent;
     border-radius: 5px;
     font-size: 16px;
 }
 
-.navbar ul {
+.navbar ul, .nav_secundario ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -96,8 +75,8 @@ body {
     position: relative;
 }
 
-.navbar ul li a:hover {
-    color: #ea4545d2;
+.navbar ul li a:hover, .nav_secundario ul li a:hover, .navbar2 .icono a:hover {
+    color: #112bf0;
 }
 
 .buscador{
@@ -105,7 +84,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 55px;
-    background-color: brown;
+    background-color: rgb(176, 169, 36);
     border-radius: 6px;
 }
 .icono {
@@ -116,15 +95,12 @@ body {
     border-style: hidden;
 }
 
-.navbar ul .dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.login_icon {
+    display: block;
+    padding: 6px;
+    width: 24px;
+    height: 24px;
+    border-style: hidden;
 }
 
 .navbar ul .dropdown li {
@@ -137,6 +113,19 @@ body {
     white-space: nowrap;
 }
 
+.navbar ul .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(203, 89, 23);
+    border-radius: 5px;
+}
+
 .navbar ul li:hover .dropdown {
     display: block;
+}
+
+.nav_secundario{
+    justify-content: space-between;
 }
