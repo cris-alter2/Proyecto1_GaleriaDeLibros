@@ -1,44 +1,32 @@
-.btnGroup{
-    text-align: center;
-    width: 100%;
-    height: 30px;
-}
-
-.btn{
-    margin-left: 30px;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-
-.inputForm{
+.input{
+    border-top: 1px solid rgba(0, 0, 0, 0.321);
     padding: 20px;
     font-size: 20px;
 }
 
-#btnCancel{
-    background-color: rgb(178, 100, 100);
+.btn{
+    color: #fff;
+    cursor: pointer;
 }
 
-
-#btnSubmint{
-    background-color: rgb(100, 178, 116);
+#campo{
+    margin-left: 5px;
+    height: 20px;
 }
 
-#title{
-    height: 30px;
-    width: 100%;
-}
-
-
-#formNew{
+#form{
+    text-align: center;
     margin: auto;
-    border: 1px solid black;
-    padding: 60px;
+    padding: 50px;
     background-color: white;
 }
 
-#content{
+#contentContainer{
     width: 100%;
-    height: 20vh;
+    height: 100vh;
+}
+
+#cont_regist{
+    display: flex;
+    justify-content: space-between;
 }
