@@ -4,9 +4,17 @@
     font-size: 20px;
 }
 
-.btn{
-    color: #fff;
-    cursor: pointer;
+.save{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#btn{
+    background-color: blue;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
 }
 
 #campo{
@@ -30,3 +38,4 @@
     display: flex;
     justify-content: space-between;
 }
+
